@@ -6,7 +6,7 @@ def bob_responds(sentence)
   elsif sentence.end_with?(".")
     puts "Sounds good."
   elsif sentence.end_with?("!")
-    puts "Whoa chill out!"
+    puts "Whoa, chill out!"
   elsif sentence.end_with?("?")
     puts "Sure"
   elsif sentence.include?(" ")
@@ -16,4 +16,4 @@ def bob_responds(sentence)
   end
 end
 
-bob_responds("HELLo")
+bob_responds("I'm a fox.")
